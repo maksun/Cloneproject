@@ -1,6 +1,6 @@
 ########################################################
 # 	Mantis Bugtracker Add-On
-# 	Clone project Version 2.0.3
+# 	Clone project Version 2.0.5
 #	2022 plugin by Cas Nuy www.NUY.info
 #	Only available for Mantis version 2.x
 ########################################################
@@ -34,3 +34,8 @@ Greetings                                                                       
 Cas Nuy 
 cas@nuy.info
 http://www.nuy.info
+
+***************************************
+* Changes
+***************************************
+01-04-2024	version 2.05	Improved lay-out for selection ( thanks to Maksun )
