@@ -10,7 +10,7 @@ $f_project_id	= helper_get_current_project();;
 <div class="col-md-12 col-xs-12">
 	<div class="space-10"></div>
 	<div id="clone_project-div" class="form-container">
-		<form id="manage-project-clone" method="post" action="manage_proj_clone.php" class="form-inline">
+		<form id="manage-project-clone" method="post" action="manage_proj_clone.php">
 			<div class="widget-box widget-color-blue2">
 				<div class="widget-header widget-header-small">
 					<h4 class="widget-title lighter">
@@ -42,7 +42,7 @@ $f_project_id	= helper_get_current_project();;
 											<label for="clone-project-description"><?php   echo  lang_get( 'description' )?></label>
 										</td>
 										<td>
-											<textarea id="clone-project-description" name="clone-project-description" class="form-control" cols="70" rows="5"></textarea>
+											<textarea id="clone-project-description" name="description" class="form-control" cols="70" rows="5"></textarea>
 										</td>
 									</tr>
 									<tr>
