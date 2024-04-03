@@ -9,7 +9,7 @@ class CloneprojectPlugin extends MantisPlugin {
         $this->author      = 'Cas Nuy';
         $this->contact     = 'Cas.Nuy@stahl.com';
         $this->url         = 'http://www.nuy.info/mantis2';
-		$this->page			= 'config';
+	$this->page	   = 'config';
     }
 	
 	function config() {
@@ -17,9 +17,8 @@ class CloneprojectPlugin extends MantisPlugin {
 			'clone_hierarchy'		=> ON,
 			'clone_subprojects'		=> ON,
 			'clone_categories'		=> ON,
-			'clone_catactive'		=> ON,
 			'clone_versions'		=> OFF,
-			'clone_customfields'	=> ON,
+			'clone_customfields'		=> ON,
 			'clone_users'			=> ON,
 		);
 	}
