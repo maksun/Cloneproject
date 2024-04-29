@@ -15,4 +15,5 @@ After copying to your webserver :<br>
 
  ## Changes
 
-01-04-2024	version 2.05	Improved lay-out for selection ( thanks to Maksun )
+01-04-2024	version 2.05	Improved lay-out for selection ( thanks to Maksun )<br>
+29-04-2024 version 2.06 Fixed check on project_id<br>
