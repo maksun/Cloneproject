@@ -6,7 +6,7 @@ This plugin allows cloning of a project including all additional data such as Hi
 
 Copy Cloneproject directory to the plugins directory of your mantis installation<br>
 After copying to your webserver :<br>
-- Start mantis ad administrator
+- Start mantis as administrator
 - Select manage
 - Select manage Plugins
 - Select Install behind Cloneproject
