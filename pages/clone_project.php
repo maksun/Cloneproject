@@ -10,7 +10,7 @@ $f_project_id	= helper_get_current_project();;
 <div class="col-md-12 col-xs-12">
 	<div class="space-10"></div>
 	<div id="clone_project-div" class="form-container">
-		<form id="manage-project-clone" method="post" action="manage_proj_clone.php">
+		<form id="manage-project-clone" method="post" action="<?php echo plugin_page('manage_proj_clone'); ?>">
 			<div class="widget-box widget-color-blue2">
 				<div class="widget-header widget-header-small">
 					<h4 class="widget-title lighter">
